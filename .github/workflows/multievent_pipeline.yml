@@ -3,6 +3,7 @@ on:
     push:
         branches:
             - master
+            - test
 
 jobs:
     on-push:
@@ -10,4 +11,3 @@ jobs:
         steps:
             - name: "Running on master push"
               run: echo "Running on master push"
-              
